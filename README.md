@@ -1,11 +1,9 @@
 # g1fitting
 Clothoid generation and sampling library, with Python wrapper
 
-The library was originally written by
-- Enrico Bertolazzi
-- Dipartimento di Ingegneria Industriale
-- Universita` degli Studi di Trento
-- email: enrico.bertolazzi@unitn.it
+The library was originally written by the authors of the work: *E. Bertolazzi and M. Frego, “G 1 fitting with clothoids,” __Math. Methods Appl. Sci.__, vol. 38, no. 5, pp. 881–897, Mar. 2015.*
+
+For questions regarding the underlying algorithm, contact Enrico Bertolazzi, _Universita` degli Studi di Trento_ (Dipartimento di Ingegneria Industriale). Email: enrico.bertolazzi@unitn.it
 
 An excellent MATLAB version of this, with many more features, exists on the MATLAB File Exchange [here](http://www.mathworks.com/matlabcentral/fileexchange/42113-g1-fitting-with-clothoids)
 
