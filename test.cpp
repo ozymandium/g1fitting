@@ -1,4 +1,5 @@
 #include "Clothoid.h"
+
 #include <math.h>
 #include <cstdio>
 #include <iostream>

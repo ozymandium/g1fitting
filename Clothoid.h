@@ -166,7 +166,7 @@ namespace Clothoid {
                     double kappa,
                     double dkappa,
                     double L,
-                    double npts,
+                    uint npts,
                     std::vector<double> & X,
                     std::vector<double> & Y );
 

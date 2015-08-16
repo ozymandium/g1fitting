@@ -14,10 +14,11 @@ else()
   message(STATUS "The compiler ${CMAKE_CXX_COMPILER} has no C++11 support. Please use a different C++ compiler.")
 endif()
 
-include_directories(${PROJECT_SOURCE_DIR})
 add_library(g1fitting
   Clothoid.cpp
 )
-
 add_executable(test test.cpp)
 target_link_libraries(test g1fitting)
+
+add_executable(test test.cpp)
+
