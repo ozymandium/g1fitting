@@ -5,7 +5,7 @@ The library was originally written by the authors of the work published [here](h
 
 An excellent MATLAB version of this, with many more features, exists on the MATLAB File Exchange [here](http://www.mathworks.com/matlabcentral/fileexchange/42113-g1-fitting-with-clothoids)
 
-I've ported his MATLAB sampling function back to C++ and added a Python 2.7 wrapper for `Clothoid::buildClothoid` and `Clothoid::pointsOnClothoid`
+I've ported his MATLAB sampling function back to C++ and added a Python 2.7 wrapper for `Clothoid::buildClothoid` and `Clothoid::pointsOnClothoid`. The MATLAB function `G1spline`, which computes a spline for `N > 2` points, has not yet been ported.
 
 ## Build
 
