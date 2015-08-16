@@ -18,3 +18,5 @@ typical CMake operation: `mkdir build && cd build && cmake .. && make && ./test`
 
 #### Python wrapper
 Use the typical method: `python setup.py build && python test.py`. This does not require the C++ library to be built, and operates without the CMake build system.
+
+Note that this has only been tested on Linux
