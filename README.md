@@ -14,7 +14,7 @@ I've ported his MATLAB sampling function back to C++ and added a Python 2.7 wrap
 ## Build
 
 #### C++ library
-typical CMake operation: `mkdir build && cd buile && cmake .. && make && ./test`
+typical CMake operation: `mkdir build && cd build && cmake .. && make && ./test`
 
 #### Python wrapper
 Use the typical method: `python setup.py build`. This does not require the C++ library to be built, and operates without the CMake build system.
