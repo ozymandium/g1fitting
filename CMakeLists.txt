@@ -20,5 +20,4 @@ add_library(g1fitting
 add_executable(test test.cpp)
 target_link_libraries(test g1fitting)
 
-add_executable(test test.cpp)
 
