@@ -1,0 +1,10 @@
+This work is a reproduction of work done by the original authors:
+
+Enrico Bertolazzi and Marco Frego
+Department of Industrial Engineering
+University of Trento
+enrico.bertolazzi@unitn.it
+m.fregox@gmail.com
+
+
+The original work was unlicensed, so this is as well. Have at it.
