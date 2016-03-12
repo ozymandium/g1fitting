@@ -2,7 +2,7 @@ from setuptools import setup, Extension
 import os
 
 
-g1fitting_ext_mod = Extension("g1fitting", 
+g1fitting_ext_mod = Extension("g1fitting_", 
   sources = [
     os.path.join('g1fitting', 'g1fittingmodule.cpp'),
   ],
@@ -16,10 +16,10 @@ g1fitting_ext_mod = Extension("g1fitting",
 
 setup(
   name = "g1fitting",
-  # packages = [
-  #   'g1fitting',
-  # ],
-  version = '0.1',
+  packages = [
+    'g1fitting',
+  ],
+  version = '0.1.2',
   description = 'A package to create and sample C1 continuous clothoid curves.',
   author = 'Robert Cofield',
   author_email = 'robertgcofield@gmail.com',

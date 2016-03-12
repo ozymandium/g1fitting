@@ -1,0 +1,2 @@
+recursive-include g1fitting *.cpp *.h *.py
+recursive-include g1fitting/test *.py

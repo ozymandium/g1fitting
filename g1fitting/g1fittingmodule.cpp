@@ -72,7 +72,7 @@ g1fitting_points_on_clothoid(
 }
 
 
-BOOST_PYTHON_MODULE(g1fitting)
+BOOST_PYTHON_MODULE(g1fitting_)
 {
   py::def("build_clothoid", g1fitting_build_clothoid);
   py::def("points_on_clothoid", g1fitting_points_on_clothoid);
