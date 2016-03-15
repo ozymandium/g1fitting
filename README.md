@@ -7,12 +7,19 @@ An excellent MATLAB version of this, with many more features, exists on the MATL
 
 I've ported his MATLAB sampling function back to C++ and added a Python 2.7 wrapper for `Clothoid::buildClothoid` and `Clothoid::pointsOnClothoid`. The MATLAB function `G1spline`, which computes a spline for `N > 2` points, has not yet been ported.
 
-## Build
+## Build/install
+
+Installation is available via PyPI: `pip install g1fitting`
+
+The `pypi` branch has all code related to that.
+
+### Source build
 
 #### C++ library
-typical CMake operation: `mkdir build && cd build && cmake .. && make && ./test`
+typical CMake operation: `mkdir build && cd build && cmake .. && make install && ./test`
 
 #### Python wrapper
-Use the typical method: `python setup.py build && python test.py`. This does not require the C++ library to be built, and operates without the CMake build system.
+Use the typical method: `python setup.py install && python test.py`. This does not require the C++ library to be built, and operates without the CMake build system.
 
 Note that this has only been tested on Linux
+
